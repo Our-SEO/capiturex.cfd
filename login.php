@@ -37,7 +37,22 @@ $pageSlug = detectPageSlug(__FILE__);
                       d="M 130.851 152.716 C 130.853 147.983 134.689 144.147 139.422 144.145 C 140.416 144.145 141.376 144.316 142.302 144.659 L 144.051 141.642 C 142.584 141.03 141.011 140.715 139.422 140.716 C 132.805 140.716 127.422 146.099 127.422 152.716 C 127.422 156.453 129.205 159.985 132.119 162.247 L 133.868 159.23 C 131.958 157.604 130.855 155.224 130.851 152.716 Z M 163.834 143.185 L 162.119 146.202 C 164.029 147.827 165.132 150.208 165.137 152.716 C 165.135 157.45 161.298 161.286 156.565 161.288 C 155.582 161.29 154.606 161.115 153.685 160.773 L 151.937 163.791 C 153.411 164.408 154.988 164.716 156.565 164.716 C 163.182 164.716 168.565 159.333 168.565 152.716 C 168.565 148.979 166.782 145.448 163.834 143.185 Z"
                       fill="#ffffff" />
                   </svg></a>
-                <nav class="hidden space-x-6 lg:flex"></nav>
+                <nav class="hidden space-x-6 lg:flex"><a href="<?php echo getHref('') ?>">
+                    <span class="font-bold text-firi-blue break-words hover:underline block">
+                      <?php echo getLang('menu_home'); ?>
+                    </span>
+                  </a>
+                  <a href="<?php echo getHref('about') ?>">
+                    <span class="font-bold text-firi-blue break-words hover:underline block">
+                      <?php echo getLang('menu_about'); ?>
+                    </span>
+                  </a>
+                  <a href="<?php echo getHref('login') ?>">
+                    <span class="font-bold text-firi-blue break-words hover:underline block">
+                      <?php echo getLang('menu_contact'); ?>
+                    </span>
+                  </a>
+                </nav>
               </div>
               <div class="hidden lg:flex">
                 <a class="mr-4 inline-block" href="<?php echo getHref('login') ?>"><button

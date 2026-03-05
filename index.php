@@ -38,7 +38,15 @@ $pageSlug = detectPageSlug(__FILE__);
                       fill="#474AEE" />
                   </svg>
                 </a>
-                <nav class="hidden space-x-6 lg:flex"></nav>
+                <nav class="hidden space-x-6 lg:flex"><a href="<?php echo getHref('') ?>">
+                    <span class="font-bold text-firi-blue break-words hover:underline block"><?php echo getLang('menu_home'); ?></span>
+                  </a>
+                  <a href="<?php echo getHref('about') ?>">
+                    <span class="font-bold text-firi-blue break-words hover:underline block"><?php echo getLang('menu_about'); ?></span>
+                  </a>
+                  <a href="<?php echo getHref('login') ?>">
+                    <span class="font-bold text-firi-blue break-words hover:underline block"><?php echo getLang('menu_contact'); ?></span>
+                  </a></nav>
               </div>
               <div class="hidden lg:flex">
                 <a class="mr-4 inline-block" href="<?php echo getHref('login') ?>">
