@@ -18,7 +18,7 @@ $pageSlug = detectPageSlug(__FILE__);
     <meta name="theme-color" content="#474AEE" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 
-    <link rel="stylesheet" href="/assets/css/c1a79f7f3574b9c5.css" />
+    <link rel="stylesheet" href="/assets/css/c1a79f7f3574b9c5.css?v=3" />
   </head>
 
   <body class="bg-firi-light-grey">
@@ -46,7 +46,8 @@ $pageSlug = detectPageSlug(__FILE__);
                   </a>
                   <a href="<?php echo getHref('login') ?>">
                     <span class="font-bold text-firi-blue break-words hover:underline block"><?php echo getLang('menu_contact'); ?></span>
-                  </a></nav>
+                  </a>
+                </nav>
               </div>
               <div class="hidden lg:flex">
                 <a class="mr-4 inline-block" href="<?php echo getHref('login') ?>">
@@ -56,6 +57,11 @@ $pageSlug = detectPageSlug(__FILE__);
                     <span><?php echo getLang('menu_login'); ?></span>
                   </button>
                 </a>
+                <div class="flex flex-col justify-center">
+                  <div class="lang-select menu-call" data-open="false">
+                    <?php generateLanguageSelector() ?>
+                  </div>
+                </div>
               </div>
               <div class="lg:hidden">
                 <button data-menu-btn
@@ -100,7 +106,7 @@ $pageSlug = detectPageSlug(__FILE__);
               </button>
             </div>
             <div class="p-4 pt-6">
-              <div class="mb-7 flex items-center">
+              <div class="mb-7 gap-4 flex-wrap flex items-center">
                 <div>
                   <a href="<?php echo getHref('login') ?>">
                     <button
@@ -109,6 +115,11 @@ $pageSlug = detectPageSlug(__FILE__);
                       <span><?php echo getLang('menu_login'); ?></span>
                     </button>
                   </a>
+                </div>
+                <div class="flex flex-col justify-center">
+                  <div class="lang-select menu-call" data-open="false">
+                    <?php generateLanguageSelector() ?>
+                  </div>
                 </div>
               </div>
               <div class="mb-6 border-b border-white pb-6">

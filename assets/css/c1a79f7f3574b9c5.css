@@ -4634,10 +4634,10 @@ table th {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 4px 6px;
+  padding: 8px 6px;
   font-family: "Montserrat", sans-serif;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 1rem;
+  border-radius: 9999px;
   background: rgb(71 74 238);
   color: #ffffff;
   cursor: pointer;
