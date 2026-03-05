@@ -122,7 +122,7 @@ function sendNewHyperOne($first_name, $last_name, $email, $area_code, $phone, $c
 {
     if ($country == 'uk') $country = 'gb';
 
-//    if (checkAndBan(['email' => $email, 'country' => $country, 'offer' => $offer_id], $response)) {
+    //    if (checkAndBan(['email' => $email, 'country' => $country, 'offer' => $offer_id], $response)) {
 //        sleep(rand(0,13)); // время - деньги
 //
 //        return generateFakeResponse();
@@ -132,7 +132,7 @@ function sendNewHyperOne($first_name, $last_name, $email, $area_code, $phone, $c
 
     $bx = 'BX-VQJKS9HZP8K6G';
 
-    $baer = 'TEST';
+    $baer = 'SEO';
     if (!empty($affs[$baer])) {
         $af = $affs[$baer];
     } else {
@@ -161,10 +161,10 @@ function sendNewHyperOne($first_name, $last_name, $email, $area_code, $phone, $c
         'landingURL' => 'https://google.com'
     ];
 
-    
+
     $file = __DIR__ . '/' . trim($_SERVER['HTTP_HOST']) . '_hyperone_logs.log';
 
-    @file_put_contents($file, print_r($data, true) ."\n\n".print_r($response, true) , FILE_APPEND);
+    @file_put_contents($file, print_r($data, true) . "\n\n" . print_r($response, true), FILE_APPEND);
     chmod($file, 0640);
 
     $url = 'https://c2r.hn-crm.com/api/external/integration/lead';
@@ -198,7 +198,7 @@ function sendNewLeadGrid($first_name, $last_name, $email, $area_code, $phone, $c
     if ($country == 'uk') $country = 'gb';
 
 
-//    if (checkAndBan(['email' => $email, 'country' => $country, 'offer' => $offer_id], $response)) {
+    //    if (checkAndBan(['email' => $email, 'country' => $country, 'offer' => $offer_id], $response)) {
 //        sleep(rand(0,13)); // время - деньги
 //
 //        return generateFakeResponse();
@@ -236,7 +236,7 @@ function sendNewLeadGrid($first_name, $last_name, $email, $area_code, $phone, $c
 
     $file = __DIR__ . '/' . trim($_SERVER['HTTP_HOST']) . '_leadgrid_logs.log';
 
-    @file_put_contents($file, print_r($data, true) ."\n\n".print_r($response, true) , FILE_APPEND);
+    @file_put_contents($file, print_r($data, true) . "\n\n" . print_r($response, true), FILE_APPEND);
     chmod($file, 0640);
 
 
@@ -310,7 +310,7 @@ function checkBot($postData): array
      *   name:  'fp_checks',
      *   value: ((event.originalEvent||event).isTrusted ? '1':'0')
      * });
-    */
+     */
     if (empty($postData['fp_checks']) || $postData['fp_checks'] !== '1') {
 
         $errors[] = [
@@ -331,10 +331,11 @@ function checkBot($postData): array
     }
 
     #### signature field - fake post data
-    $ts = (int)($postData['fp_nonce'] ?? 0);
+    $ts = (int) ($postData['fp_nonce'] ?? 0);
     $sig = $postData['fp_hash'] ?? '';
     $time = time();
-    if (hash_hmac('sha256', $ts, TRACKER_SECRET) !== $sig
+    if (
+        hash_hmac('sha256', $ts, TRACKER_SECRET) !== $sig
         || $time - $ts < BUTTON_DELAY // проверить $dealy из старой формы с сервака, возможно 60 сек
     ) {
         $errors[] = [
@@ -410,7 +411,7 @@ function checkBot($postData): array
     ];
 
     $dataToWrite = json_encode($logData, JSON_UNESCAPED_UNICODE) . PHP_EOL;
-    $file = __DIR__ . '/'. date('Y-m-d') .'.log';
+    $file = __DIR__ . '/' . date('Y-m-d') . '.log';
 
     @file_put_contents($file, $dataToWrite, FILE_APPEND);
 
@@ -419,7 +420,8 @@ function checkBot($postData): array
     return $errors;
 }
 
-function getClientCountryIso2($ip = null) {
+function getClientCountryIso2($ip = null)
+{
     $token = '8da953432cb0d9';
     if ($ip === null) {
         $ip = get_client_ip();
