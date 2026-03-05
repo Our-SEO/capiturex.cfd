@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://capiturex.cfd/en/</loc>
+    <lastmod>2026-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default"    href="https://capiturex.cfd/en/" />
+    <xhtml:link rel="alternate" hreflang="en"           href="https://capiturex.cfd/en/" />
+    <xhtml:link rel="alternate" hreflang="es"           href="https://capiturex.cfd/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR"        href="https://capiturex.cfd/br/" />
+    <xhtml:link rel="alternate" hreflang="es-CO"        href="https://capiturex.cfd/co/" />
+    <xhtml:link rel="alternate" hreflang="de-CH"        href="https://capiturex.cfd/ch-de/" />
+    <xhtml:link rel="alternate" hreflang="fr-CH"        href="https://capiturex.cfd/ch-fr/" />
+    <xhtml:link rel="alternate" hreflang="ja"           href="https://capiturex.cfd/jp/" />
+    <xhtml:link rel="alternate" hreflang="es"           href="https://capiturex.cfd/es/" /> 
+    <xhtml:link rel="alternate" hreflang="no"           href="https://capiturex.cfd/no/" />
+    <xhtml:link rel="alternate" hreflang="fr"           href="https://capiturex.cfd/fr/" /> 
+    <xhtml:link rel="alternate" hreflang="fr-CA"        href="https://capiturex.cfd/ca-fr/" />
+    <xhtml:link rel="alternate" hreflang="en-CA"        href="https://capiturex.cfd/ca-en/" />
+    <xhtml:link rel="alternate" hreflang="en-MY"        href="https://capiturex.cfd/my-en/" />
+    <xhtml:link rel="alternate" hreflang="en-PH"        href="https://capiturex.cfd/ph-en/" />
+    <xhtml:link rel="alternate" hreflang="ar-AE"        href="https://capiturex.cfd/ae/" />
+    <xhtml:link rel="alternate" hreflang="ar-SA"        href="https://capiturex.cfd/sa/" />
+  </url>
+
+  <url>
+    <loc>https://capiturex.cfd/en/about</loc>
+    <lastmod>2026-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default"    href="https://capiturex.cfd/en/about" />
+    <xhtml:link rel="alternate" hreflang="en"           href="https://capiturex.cfd/en/about" />
+    <xhtml:link rel="alternate" hreflang="es"           href="https://capiturex.cfd/es/about" />
+    <xhtml:link rel="alternate" hreflang="pt-BR"        href="https://capiturex.cfd/br/about" />
+    <xhtml:link rel="alternate" hreflang="es-CO"        href="https://capiturex.cfd/co/about" />
+    <xhtml:link rel="alternate" hreflang="de-CH"        href="https://capiturex.cfd/ch-de/about" />
+    <xhtml:link rel="alternate" hreflang="fr-CH"        href="https://capiturex.cfd/ch-fr/about" />
+    <xhtml:link rel="alternate" hreflang="ja"           href="https://capiturex.cfd/jp/about" />
+    <xhtml:link rel="alternate" hreflang="no"           href="https://capiturex.cfd/no/about" />
+    <xhtml:link rel="alternate" hreflang="fr"           href="https://capiturex.cfd/fr/about" />
+    <xhtml:link rel="alternate" hreflang="fr-CA"        href="https://capiturex.cfd/ca-fr/about" />
+    <xhtml:link rel="alternate" hreflang="en-CA"        href="https://capiturex.cfd/ca-en/about" />
+    <xhtml:link rel="alternate" hreflang="en-MY"        href="https://capiturex.cfd/my-en/about" />
+    <xhtml:link rel="alternate" hreflang="en-PH"        href="https://capiturex.cfd/ph-en/about" />
+    <xhtml:link rel="alternate" hreflang="ar-AE"        href="https://capiturex.cfd/ae/about" />
+    <xhtml:link rel="alternate" hreflang="ar-SA"        href="https://capiturex.cfd/sa/about" />
+  </url>
+
+  <url>
+    <loc>https://capiturex.cfd/en/login</loc>
+    <lastmod>2026-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default"    href="https://capiturex.cfd/en/login" />
+    <xhtml:link rel="alternate" hreflang="en"           href="https://capiturex.cfd/en/login" />
+    <xhtml:link rel="alternate" hreflang="es"           href="https://capiturex.cfd/es/login" />
+    <xhtml:link rel="alternate" hreflang="pt-BR"        href="https://capiturex.cfd/br/login" />
+    <xhtml:link rel="alternate" hreflang="es-CO"        href="https://capiturex.cfd/co/login" />
+    <xhtml:link rel="alternate" hreflang="de-CH"        href="https://capiturex.cfd/ch-de/login" />
+    <xhtml:link rel="alternate" hreflang="fr-CH"        href="https://capiturex.cfd/ch-fr/login" />
+    <xhtml:link rel="alternate" hreflang="ja"           href="https://capiturex.cfd/jp/login" />
+    <xhtml:link rel="alternate" hreflang="no"           href="https://capiturex.cfd/no/login" />
+    <xhtml:link rel="alternate" hreflang="fr"           href="https://capiturex.cfd/fr/login" />
+    <xhtml:link rel="alternate" hreflang="fr-CA"        href="https://capiturex.cfd/ca-fr/login" />
+    <xhtml:link rel="alternate" hreflang="en-CA"        href="https://capiturex.cfd/ca-en/login" />
+    <xhtml:link rel="alternate" hreflang="en-MY"        href="https://capiturex.cfd/my-en/login" />
+    <xhtml:link rel="alternate" hreflang="en-PH"        href="https://capiturex.cfd/ph-en/login" />
+    <xhtml:link rel="alternate" hreflang="ar-AE"        href="https://capiturex.cfd/ae/login" />
+    <xhtml:link rel="alternate" hreflang="ar-SA"        href="https://capiturex.cfd/sa/login" />
+  </url>
+
+</urlset>
